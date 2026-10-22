@@ -17,18 +17,18 @@ public class Ejercicio8 {
             System.out.println("Introduce un número:");
             numero = input.nextInt();
 
-            // Comprobamos si el número es positivo
+            // Comprobamos si el numero es positivo
             if (numero > 0) {
                 positivos++;
             }
 
-            // Comprobamos si el número es negativo
+            // Comprobamos si el numero es negativo
             else if (numero < 0) {
                 negativos++;
             }
         }
 
-        // Mostramos la cantidad de números positivos y negativos
+        // Mostramos la cantidad de numeros positivos y negativos
         System.out.println("Números positivos: " + positivos);
         System.out.println("Números negativos: " + negativos);
 

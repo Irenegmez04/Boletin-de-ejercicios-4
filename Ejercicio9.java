@@ -10,10 +10,10 @@ public class Ejercicio9 {
         System.out.println("Introduce un número:");
         int numero = input.nextInt();
 
-        // Suponemos que el número es primo
+        // Suponemos que el numero es primo
         boolean primo = true;
 
-        // Los números menores que 2 no son primos
+        // Los numeros menores que 2 no son primos
         if (numero < 2) {
             primo = false;
         }
@@ -25,7 +25,7 @@ public class Ejercicio9 {
             }
         }
 
-        // Mostramos si el número es primo o no
+        // Mostramos si el numero es primo o no
         if (primo) {
             System.out.println("El número es primo");
         } else {

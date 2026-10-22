@@ -10,25 +10,24 @@ public class Ejercicio7 {
         int suma = 0;
         int contador = 0;
 
-        // Pedimos el primer número
         System.out.println("Introduce un número positivo: ..0.");
         numero = input.nextInt();
 
-        // Repetimos mientras el número no sea negativo
+        // Repetimos mientras el numero no sea negativo
         while (numero >= 0) {
 
-            // Sumamos el número
+            // Sumamos el numero
             suma = suma + numero;
 
             // Contamos los números introducidos
             contador++;
 
-            // Pedimos otro número
+            // Pedimos otro numero
             System.out.println("Introduce otro número: ");
             numero = input.nextInt();
         }
 
-        // Comprobamos que se haya introducido algún número
+        // Comprobamos que se haya introducido algún numero
         if (contador > 0) {
 
             // Calculamos la media

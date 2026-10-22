@@ -6,11 +6,11 @@ public class Ejercicio10 {
 
         Scanner input = new Scanner(System.in);
 
-        // Pedimos un número entero y positivo
+        // Pedimos un numero entero y positivo
         System.out.println("Introduce un número entero y positivo:");
         int numero = input.nextInt();
 
-        // Comprobamos que el número sea positivo
+        // Comprobamos que el numero sea positivo
         while (numero <= 0) {
             System.out.println("Error, introduce un número positivo:");
             numero = input.nextInt();
@@ -19,7 +19,7 @@ public class Ejercicio10 {
         // Creamos una variable para guardar la suma
         int suma = 0;
 
-        // Sumamos los 100 números siguientes al número introducido
+        // Sumamos los 100 numeros siguientes al número introducido
         for (int i = 1; i <= 100; i++) {
             suma = suma + numero + i;
         }
