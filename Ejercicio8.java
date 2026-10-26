@@ -22,7 +22,7 @@ public class Ejercicio8 {
                 positivos++;
             }
 
-            // Comprobamos si el numero es negativo
+            // Comprobamos si el numero es negativo - Ponemos el else if para que no cuente el 0, ya que si ponemos else, lo cuenta como negativo
             else if (numero < 0) {
                 negativos++;
             }
